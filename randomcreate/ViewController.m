@@ -30,7 +30,7 @@
     picker.showsSelectionIndicator = YES;
     
     // UIPickerのインスタンスをビューに追加
-//    [self.view addSubview:picker];
+    //    [self.view addSubview:picker];
 }
 
 - (void)didReceiveMemoryWarning
@@ -77,13 +77,13 @@ numberOfRowsInComponent:(NSInteger)component
         case 1: // 1列目
             return [NSString stringWithFormat:@"%d個", row+1];
             break;
-
+            
             
         default:
             return 0;
             break;
     }
-
+    
 }
 
 
@@ -93,11 +93,11 @@ numberOfRowsInComponent:(NSInteger)component
     // 1列目の選択された行数を取得
     provide= [pickerView selectedRowInComponent:0];
     m= [pickerView selectedRowInComponent:1];
-
- }
+    
+}
 
 -(IBAction)button{
-    rannsuu=arc4random()%provide+1;
+    rannsuu=arc4random()%(int)provide;
     label.text=[NSString stringWithFormat:@"%d",rannsuu];
     NSLog(@"provide:%d rannsuu:%d",provide,rannsuu);
     if (m==2) {
@@ -114,7 +114,7 @@ numberOfRowsInComponent:(NSInteger)component
         labelb.text=[NSString stringWithFormat:@"%d",rannsuub];
     }
     
-    }
+}
 
 
 
