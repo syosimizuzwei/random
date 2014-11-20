@@ -103,6 +103,7 @@ numberOfRowsInComponent:(NSInteger)component
     if (m==2) {
         rannsuu=arc4random()%provide+1;
         label.text=[NSString stringWithFormat:@"%d",rannsuu];
+        
         rannsuua=arc4random()%provide+1;
         labela.text=[NSString stringWithFormat:@"%d",rannsuua];
     }else if(m==3){
