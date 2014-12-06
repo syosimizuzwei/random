@@ -92,12 +92,12 @@ numberOfRowsInComponent:(NSInteger)component
 {
     // 1列目の選択された行数を取得
     provide= [pickerView selectedRowInComponent:0];
-    m= [pickerView selectedRowInComponent:1];
+    m= [pickerView selectedRowInComponent:0];
     
 }
 
 -(IBAction)button{
-    rannsuu=arc4random()%(int)provide;
+    rannsuu=arc4random()%(int)provide+1;
     label.text=[NSString stringWithFormat:@"%d",rannsuu];
     NSLog(@"provide:%d rannsuu:%d",provide,rannsuu);
     if (m==2) {
