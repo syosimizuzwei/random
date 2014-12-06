@@ -22,4 +22,5 @@
     NSArray *array;
         }
 -(IBAction)button;
+-(IBAction)buttonclear;
 @end

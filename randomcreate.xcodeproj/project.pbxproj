@@ -114,8 +114,8 @@
 			children = (
 				EDE0ED6D1A175A42001EF010 /* AppDelegate.h */,
 				EDE0ED6E1A175A42001EF010 /* AppDelegate.m */,
-				EDE0ED731A175A42001EF010 /* ViewController.h */,
 				EDE0ED931A175F1B001EF010 /* Main.storyboard */,
+				EDE0ED731A175A42001EF010 /* ViewController.h */,
 				EDE0ED741A175A42001EF010 /* ViewController.m */,
 				EDE0ED761A175A42001EF010 /* Images.xcassets */,
 				EDE0ED651A175A42001EF010 /* Supporting Files */,
@@ -456,6 +456,7 @@
 				EDE0ED8F1A175A42001EF010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDE0ED901A175A42001EF010 /* Build configuration list for PBXNativeTarget "randomcreateTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				EDE0ED921A175A42001EF010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

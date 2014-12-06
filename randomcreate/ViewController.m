@@ -45,9 +45,9 @@
 - (NSInteger)pickerView:(UIPickerView *)pickerView
 numberOfRowsInComponent:(NSInteger)component
 {if(component == 0){
-    return 100;  // 1列目は10行
+    return 100;  // 1列目は100行
 }else{
-    return 3;  // 2列目は5行
+    return 3;  // 2列目は3行
 }
     
 }
@@ -92,31 +92,44 @@ numberOfRowsInComponent:(NSInteger)component
 {
     // 1列目の選択された行数を取得
     provide= [pickerView selectedRowInComponent:0];
-    m= [pickerView selectedRowInComponent:0];
+    m= [pickerView selectedRowInComponent:1]+1;
     
 }
 
 -(IBAction)button{
     rannsuu=arc4random()%(int)provide+1;
+    
     label.text=[NSString stringWithFormat:@"%d",rannsuu];
+    
     NSLog(@"provide:%d rannsuu:%d",provide,rannsuu);
     if (m==2) {
-        rannsuu=arc4random()%provide+1;
+        rannsuu=arc4random_uniform(provide+1);
+        
         label.text=[NSString stringWithFormat:@"%d",rannsuu];
         
         rannsuua=arc4random()%provide+1;
+        
         labela.text=[NSString stringWithFormat:@"%d",rannsuua];
     }else if(m==3){
         rannsuu=arc4random()%provide+1;
+        
         label.text=[NSString stringWithFormat:@"%d",rannsuu];
-        rannsuua=arc4random()%provide+1;
+        
+        rannsuua=arc4random_uniform(provide+1);
+        
         labela.text=[NSString stringWithFormat:@"%d",rannsuua];
+        
         rannsuub=arc4random()%provide+1;
+        
         labelb.text=[NSString stringWithFormat:@"%d",rannsuub];
     }
     
 }
-
+-(IBAction)buttonclear{
+    label.text=[NSString stringWithFormat:@"0"];
+    labela.text=[NSString stringWithFormat:@"0"];
+    labelb.text=[NSString stringWithFormat:@"0"];
+}
 
 
 
