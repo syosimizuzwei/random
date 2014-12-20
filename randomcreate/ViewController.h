@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MRProgress.h"
+//#import "MRProgress.h"
 @interface ViewController : UIViewController<UIPickerViewDelegate, UIPickerViewDataSource>
 {
     int rannsuu;
@@ -23,5 +23,7 @@
         }
 -(IBAction)button;
 -(IBAction)buttonclear;
+@property(nonatomic)UIView*  window;
+
 
 @end

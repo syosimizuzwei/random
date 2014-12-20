@@ -31,11 +31,11 @@
     
     // UIPickerのインスタンスをビューに追加
     //    [self.view addSubview:picker];
-    label.layer.borderColor = [UIColor blackColor].CGColor;
+    label.layer.borderColor = [UIColor lightGrayColor].CGColor;
     label.layer.borderWidth = 4.0;
-    labela.layer.borderColor = [UIColor blackColor].CGColor;
+    labela.layer.borderColor = [UIColor lightGrayColor].CGColor;
     labela.layer.borderWidth = 4.0;
-    labelb.layer.borderColor = [UIColor blackColor].CGColor;
+    labelb.layer.borderColor = [UIColor lightGrayColor].CGColor;
     labelb.layer.borderWidth = 4.0;
 
 
@@ -107,7 +107,7 @@ numberOfRowsInComponent:(NSInteger)component
 
 -(IBAction)button{
     rannsuu=arc4random()%(int)provide+1;
-    
+    //[MRProgressOverlayView showOverlayAddedTo:self.window animated:YES];
     label.text=[NSString stringWithFormat:@"%d",rannsuu];
     
     NSLog(@"provide:%d rannsuu:%d",provide,rannsuu);

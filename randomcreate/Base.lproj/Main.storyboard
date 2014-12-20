@@ -76,7 +76,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.95730723510000004" green="0.89566179130000001" blue="0.18221647220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.47843140363693237" green="0.92156869173049927" blue="0.22745099663734436" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <connections>
                         <outlet property="label" destination="Md5-hV-gCR" id="lHW-AR-kdl"/>
