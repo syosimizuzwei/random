@@ -81,7 +81,7 @@ numberOfRowsInComponent:(NSInteger)component
 {
     switch (component) {
         case 0: // 1列目
-            return [NSString stringWithFormat:@"%d", row+1];
+            return [NSString stringWithFormat:@"%d", row+2];
             break;
         case 1: // 1列目
             return [NSString stringWithFormat:@"%d個", row+1];
