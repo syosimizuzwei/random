@@ -81,7 +81,7 @@ numberOfRowsInComponent:(NSInteger)component
 {
     switch (component) {
         case 0: // 1列目
-            return [NSString stringWithFormat:@"%d", row+2];
+            return [NSString stringWithFormat:@"%d", row+1];
             break;
         case 1: // 1列目
             return [NSString stringWithFormat:@"%d個", row+1];
@@ -108,6 +108,10 @@ numberOfRowsInComponent:(NSInteger)component
 -(IBAction)button{
     int number = (int)provide+1;
     rannsuu=arc4random()% number;
+    if (rannsuu==0) {
+        rannsuu=1;
+    }
+
     //[MRProgressOverlayView showOverlayAddedTo:self.window animated:YES];
     label.text=[NSString stringWithFormat:@"%d",rannsuu];
     label.layer.borderColor = [UIColor orangeColor].CGColor;
@@ -118,12 +122,26 @@ numberOfRowsInComponent:(NSInteger)component
     labelb.layer.borderWidth = 0.0;
 
     NSLog(@"provide:%d rannsuu:%d",provide,rannsuu);
+    
+    
+    
     if (m==2) {
         int number = (int)provide+1;
         rannsuu=arc4random()% number;
         label.text=[NSString stringWithFormat:@"%d",rannsuu];
         
-        rannsuua=arc4random()%provide+1;
+                rannsuua=arc4random()% number;
+       
+        if (rannsuu==0) {
+            rannsuu=1;
+        }
+        if (rannsuua==0) {
+           
+           rannsuua=1;}
+        if (rannsuub==0) {
+            rannsuub=1;
+        }
+
         
         labela.text=[NSString stringWithFormat:@"%d",rannsuua];
         label.layer.borderColor = [UIColor orangeColor].CGColor;
@@ -133,17 +151,39 @@ numberOfRowsInComponent:(NSInteger)component
         labelb.layer.borderColor = [UIColor orangeColor].CGColor;
         labelb.layer.borderWidth = 0.0;
 
-    }else if(m==3){
+    }
+    
+    
+    
+    
+    
+    
+    else if(m==3){
         int number = (int)provide+1;
         rannsuu=arc4random()% number;
+        rannsuua=arc4random()% number;
+        rannsuub=arc4random()% number;
+        
+        if (rannsuu==0) {
+            rannsuu=1;
+        }
+        if (rannsuua==0) {
+            
+            rannsuua=1;}
+        if (rannsuub==0) {
+            rannsuub=1;
+        }
+        
+
+        
+        
         
         label.text=[NSString stringWithFormat:@"%d",rannsuu];
         
-        rannsuua=arc4random_uniform(provide+1);
-        
+       
+
         labela.text=[NSString stringWithFormat:@"%d",rannsuua];
         
-        rannsuub=arc4random()%provide+1;
         
         labelb.text=[NSString stringWithFormat:@"%d",rannsuub];
         
