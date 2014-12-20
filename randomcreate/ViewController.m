@@ -106,7 +106,8 @@ numberOfRowsInComponent:(NSInteger)component
 }
 
 -(IBAction)button{
-    rannsuu=arc4random()%(int)provide+1;
+    int number = (int)provide+1;
+    rannsuu=arc4random()% number;
     //[MRProgressOverlayView showOverlayAddedTo:self.window animated:YES];
     label.text=[NSString stringWithFormat:@"%d",rannsuu];
     
