@@ -100,7 +100,7 @@ numberOfRowsInComponent:(NSInteger)component
       didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
     // 1列目の選択された行数を取得
-    provide= [pickerView selectedRowInComponent:0];
+    provide= [pickerView selectedRowInComponent:0]+1;
     m= [pickerView selectedRowInComponent:1]+1;
     
 }
