@@ -31,6 +31,15 @@
     
     // UIPickerのインスタンスをビューに追加
     //    [self.view addSubview:picker];
+    label.layer.borderColor = [UIColor blackColor].CGColor;
+    label.layer.borderWidth = 4.0;
+    labela.layer.borderColor = [UIColor blackColor].CGColor;
+    labela.layer.borderWidth = 4.0;
+    labelb.layer.borderColor = [UIColor blackColor].CGColor;
+    labelb.layer.borderWidth = 4.0;
+
+
+
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MRProgress.h"
 @interface ViewController : UIViewController<UIPickerViewDelegate, UIPickerViewDataSource>
 {
     int rannsuu;

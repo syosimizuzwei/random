@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED355A711A4550E2006BA698 /* button_sozai.png in Resources */ = {isa = PBXBuildFile; fileRef = ED355A701A4550E2006BA698 /* button_sozai.png */; };
+		ED355A991A4557A9006BA698 /* MRBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A751A4557A9006BA698 /* MRBlurView.m */; };
+		ED355A9A1A4557A9006BA698 /* UIImage+MRImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A771A4557A9006BA698 /* UIImage+MRImageEffects.m */; };
+		ED355A9B1A4557A9006BA698 /* MRActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A7A1A4557A9006BA698 /* MRActivityIndicatorView.m */; };
+		ED355A9C1A4557A9006BA698 /* MRCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A7C1A4557A9006BA698 /* MRCircularProgressView.m */; };
+		ED355A9D1A4557A9006BA698 /* MRIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A7E1A4557A9006BA698 /* MRIconView.m */; };
+		ED355A9E1A4557A9006BA698 /* MRNavigationBarProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A801A4557A9006BA698 /* MRNavigationBarProgressView.m */; };
+		ED355A9F1A4557A9006BA698 /* MRProgressOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A821A4557A9006BA698 /* MRProgressOverlayView.m */; };
+		ED355AA01A4557A9006BA698 /* MRProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A841A4557A9006BA698 /* MRProgressView.m */; };
+		ED355AA11A4557A9006BA698 /* MRStopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A871A4557A9006BA698 /* MRStopButton.m */; };
+		ED355AA21A4557A9006BA698 /* MRActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A8C1A4557A9006BA698 /* MRActivityIndicatorView+AFNetworking.m */; };
+		ED355AA31A4557A9006BA698 /* MRProgressOverlayView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A8E1A4557A9006BA698 /* MRProgressOverlayView+AFNetworking.m */; };
+		ED355AA41A4557A9006BA698 /* MRProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A901A4557A9006BA698 /* MRProgressView+AFNetworking.m */; };
+		ED355AA51A4557A9006BA698 /* MRMessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A931A4557A9006BA698 /* MRMessageInterceptor.m */; };
+		ED355AA61A4557A9006BA698 /* MRMethodCopier.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A951A4557A9006BA698 /* MRMethodCopier.m */; };
+		ED355AA71A4557A9006BA698 /* MRWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED355A981A4557A9006BA698 /* MRWeakProxy.m */; };
+		ED355AA91A4557D1006BA698 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED355AA81A4557D1006BA698 /* QuartzCore.framework */; };
+		ED355AAB1A4557DD006BA698 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED355AAA1A4557DD006BA698 /* Accelerate.framework */; };
 		EDE0ED5F1A175A42001EF010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0ED5E1A175A42001EF010 /* Foundation.framework */; };
 		EDE0ED611A175A42001EF010 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0ED601A175A42001EF010 /* CoreGraphics.framework */; };
 		EDE0ED631A175A42001EF010 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0ED621A175A42001EF010 /* UIKit.framework */; };
@@ -34,6 +52,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED355A701A4550E2006BA698 /* button_sozai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_sozai.png; sourceTree = "<group>"; };
+		ED355A741A4557A9006BA698 /* MRBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRBlurView.h; sourceTree = "<group>"; };
+		ED355A751A4557A9006BA698 /* MRBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBlurView.m; sourceTree = "<group>"; };
+		ED355A761A4557A9006BA698 /* UIImage+MRImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MRImageEffects.h"; sourceTree = "<group>"; };
+		ED355A771A4557A9006BA698 /* UIImage+MRImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MRImageEffects.m"; sourceTree = "<group>"; };
+		ED355A791A4557A9006BA698 /* MRActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRActivityIndicatorView.h; sourceTree = "<group>"; };
+		ED355A7A1A4557A9006BA698 /* MRActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRActivityIndicatorView.m; sourceTree = "<group>"; };
+		ED355A7B1A4557A9006BA698 /* MRCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCircularProgressView.h; sourceTree = "<group>"; };
+		ED355A7C1A4557A9006BA698 /* MRCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCircularProgressView.m; sourceTree = "<group>"; };
+		ED355A7D1A4557A9006BA698 /* MRIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRIconView.h; sourceTree = "<group>"; };
+		ED355A7E1A4557A9006BA698 /* MRIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRIconView.m; sourceTree = "<group>"; };
+		ED355A7F1A4557A9006BA698 /* MRNavigationBarProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationBarProgressView.h; sourceTree = "<group>"; };
+		ED355A801A4557A9006BA698 /* MRNavigationBarProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNavigationBarProgressView.m; sourceTree = "<group>"; };
+		ED355A811A4557A9006BA698 /* MRProgressOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgressOverlayView.h; sourceTree = "<group>"; };
+		ED355A821A4557A9006BA698 /* MRProgressOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRProgressOverlayView.m; sourceTree = "<group>"; };
+		ED355A831A4557A9006BA698 /* MRProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgressView.h; sourceTree = "<group>"; };
+		ED355A841A4557A9006BA698 /* MRProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRProgressView.m; sourceTree = "<group>"; };
+		ED355A851A4557A9006BA698 /* MRStopableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRStopableView.h; sourceTree = "<group>"; };
+		ED355A861A4557A9006BA698 /* MRStopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRStopButton.h; sourceTree = "<group>"; };
+		ED355A871A4557A9006BA698 /* MRStopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRStopButton.m; sourceTree = "<group>"; };
+		ED355A881A4557A9006BA698 /* MRProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgress.h; sourceTree = "<group>"; };
+		ED355A8B1A4557A9006BA698 /* MRActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MRActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		ED355A8C1A4557A9006BA698 /* MRActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MRActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		ED355A8D1A4557A9006BA698 /* MRProgressOverlayView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MRProgressOverlayView+AFNetworking.h"; sourceTree = "<group>"; };
+		ED355A8E1A4557A9006BA698 /* MRProgressOverlayView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MRProgressOverlayView+AFNetworking.m"; sourceTree = "<group>"; };
+		ED355A8F1A4557A9006BA698 /* MRProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MRProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		ED355A901A4557A9006BA698 /* MRProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MRProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		ED355A921A4557A9006BA698 /* MRMessageInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMessageInterceptor.h; sourceTree = "<group>"; };
+		ED355A931A4557A9006BA698 /* MRMessageInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRMessageInterceptor.m; sourceTree = "<group>"; };
+		ED355A941A4557A9006BA698 /* MRMethodCopier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMethodCopier.h; sourceTree = "<group>"; };
+		ED355A951A4557A9006BA698 /* MRMethodCopier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRMethodCopier.m; sourceTree = "<group>"; };
+		ED355A961A4557A9006BA698 /* MRProgressHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgressHelper.h; sourceTree = "<group>"; };
+		ED355A971A4557A9006BA698 /* MRWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRWeakProxy.h; sourceTree = "<group>"; };
+		ED355A981A4557A9006BA698 /* MRWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRWeakProxy.m; sourceTree = "<group>"; };
+		ED355AA81A4557D1006BA698 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ED355AAA1A4557DD006BA698 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		EDE0ED5B1A175A42001EF010 /* randomcreate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomcreate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE0ED5E1A175A42001EF010 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EDE0ED601A175A42001EF010 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED355AAB1A4557DD006BA698 /* Accelerate.framework in Frameworks */,
+				ED355AA91A4557D1006BA698 /* QuartzCore.framework in Frameworks */,
 				EDE0ED611A175A42001EF010 /* CoreGraphics.framework in Frameworks */,
 				EDE0ED631A175A42001EF010 /* UIKit.framework in Frameworks */,
 				EDE0ED5F1A175A42001EF010 /* Foundation.framework in Frameworks */,
@@ -79,9 +135,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED355A721A4557A9006BA698 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				ED355A731A4557A9006BA698 /* Blur */,
+				ED355A781A4557A9006BA698 /* Components */,
+				ED355A881A4557A9006BA698 /* MRProgress.h */,
+				ED355A891A4557A9006BA698 /* Support */,
+				ED355A911A4557A9006BA698 /* Utils */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		ED355A731A4557A9006BA698 /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				ED355A741A4557A9006BA698 /* MRBlurView.h */,
+				ED355A751A4557A9006BA698 /* MRBlurView.m */,
+				ED355A761A4557A9006BA698 /* UIImage+MRImageEffects.h */,
+				ED355A771A4557A9006BA698 /* UIImage+MRImageEffects.m */,
+			);
+			path = Blur;
+			sourceTree = "<group>";
+		};
+		ED355A781A4557A9006BA698 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ED355A791A4557A9006BA698 /* MRActivityIndicatorView.h */,
+				ED355A7A1A4557A9006BA698 /* MRActivityIndicatorView.m */,
+				ED355A7B1A4557A9006BA698 /* MRCircularProgressView.h */,
+				ED355A7C1A4557A9006BA698 /* MRCircularProgressView.m */,
+				ED355A7D1A4557A9006BA698 /* MRIconView.h */,
+				ED355A7E1A4557A9006BA698 /* MRIconView.m */,
+				ED355A7F1A4557A9006BA698 /* MRNavigationBarProgressView.h */,
+				ED355A801A4557A9006BA698 /* MRNavigationBarProgressView.m */,
+				ED355A811A4557A9006BA698 /* MRProgressOverlayView.h */,
+				ED355A821A4557A9006BA698 /* MRProgressOverlayView.m */,
+				ED355A831A4557A9006BA698 /* MRProgressView.h */,
+				ED355A841A4557A9006BA698 /* MRProgressView.m */,
+				ED355A851A4557A9006BA698 /* MRStopableView.h */,
+				ED355A861A4557A9006BA698 /* MRStopButton.h */,
+				ED355A871A4557A9006BA698 /* MRStopButton.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ED355A891A4557A9006BA698 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				ED355A8A1A4557A9006BA698 /* AFNetworking */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		ED355A8A1A4557A9006BA698 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				ED355A8B1A4557A9006BA698 /* MRActivityIndicatorView+AFNetworking.h */,
+				ED355A8C1A4557A9006BA698 /* MRActivityIndicatorView+AFNetworking.m */,
+				ED355A8D1A4557A9006BA698 /* MRProgressOverlayView+AFNetworking.h */,
+				ED355A8E1A4557A9006BA698 /* MRProgressOverlayView+AFNetworking.m */,
+				ED355A8F1A4557A9006BA698 /* MRProgressView+AFNetworking.h */,
+				ED355A901A4557A9006BA698 /* MRProgressView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		ED355A911A4557A9006BA698 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ED355A921A4557A9006BA698 /* MRMessageInterceptor.h */,
+				ED355A931A4557A9006BA698 /* MRMessageInterceptor.m */,
+				ED355A941A4557A9006BA698 /* MRMethodCopier.h */,
+				ED355A951A4557A9006BA698 /* MRMethodCopier.m */,
+				ED355A961A4557A9006BA698 /* MRProgressHelper.h */,
+				ED355A971A4557A9006BA698 /* MRWeakProxy.h */,
+				ED355A981A4557A9006BA698 /* MRWeakProxy.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		EDE0ED521A175A42001EF010 = {
 			isa = PBXGroup;
 			children = (
+				ED355A721A4557A9006BA698 /* src */,
 				EDE0ED641A175A42001EF010 /* randomcreate */,
 				EDE0ED831A175A42001EF010 /* randomcreateTests */,
 				EDE0ED5D1A175A42001EF010 /* Frameworks */,
@@ -101,6 +238,8 @@
 		EDE0ED5D1A175A42001EF010 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED355AAA1A4557DD006BA698 /* Accelerate.framework */,
+				ED355AA81A4557D1006BA698 /* QuartzCore.framework */,
 				EDE0ED5E1A175A42001EF010 /* Foundation.framework */,
 				EDE0ED601A175A42001EF010 /* CoreGraphics.framework */,
 				EDE0ED621A175A42001EF010 /* UIKit.framework */,
@@ -115,6 +254,7 @@
 				EDE0ED6D1A175A42001EF010 /* AppDelegate.h */,
 				EDE0ED6E1A175A42001EF010 /* AppDelegate.m */,
 				EDE0ED931A175F1B001EF010 /* Main.storyboard */,
+				ED355A701A4550E2006BA698 /* button_sozai.png */,
 				EDE0ED731A175A42001EF010 /* ViewController.h */,
 				EDE0ED741A175A42001EF010 /* ViewController.m */,
 				EDE0ED761A175A42001EF010 /* Images.xcassets */,
@@ -228,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED355A711A4550E2006BA698 /* button_sozai.png in Resources */,
 				EDE0ED951A175F1B001EF010 /* Main.storyboard in Resources */,
 				EDE0ED771A175A42001EF010 /* Images.xcassets in Resources */,
 				EDE0ED691A175A42001EF010 /* InfoPlist.strings in Resources */,
@@ -249,9 +390,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED355A9B1A4557A9006BA698 /* MRActivityIndicatorView.m in Sources */,
+				ED355A9E1A4557A9006BA698 /* MRNavigationBarProgressView.m in Sources */,
 				EDE0ED751A175A42001EF010 /* ViewController.m in Sources */,
+				ED355AA01A4557A9006BA698 /* MRProgressView.m in Sources */,
+				ED355AA51A4557A9006BA698 /* MRMessageInterceptor.m in Sources */,
+				ED355AA41A4557A9006BA698 /* MRProgressView+AFNetworking.m in Sources */,
+				ED355A9D1A4557A9006BA698 /* MRIconView.m in Sources */,
 				EDE0ED6F1A175A42001EF010 /* AppDelegate.m in Sources */,
+				ED355AA11A4557A9006BA698 /* MRStopButton.m in Sources */,
+				ED355AA21A4557A9006BA698 /* MRActivityIndicatorView+AFNetworking.m in Sources */,
+				ED355A991A4557A9006BA698 /* MRBlurView.m in Sources */,
+				ED355AA61A4557A9006BA698 /* MRMethodCopier.m in Sources */,
+				ED355A9A1A4557A9006BA698 /* UIImage+MRImageEffects.m in Sources */,
+				ED355AA31A4557A9006BA698 /* MRProgressOverlayView+AFNetworking.m in Sources */,
 				EDE0ED6B1A175A42001EF010 /* main.m in Sources */,
+				ED355A9C1A4557A9006BA698 /* MRCircularProgressView.m in Sources */,
+				ED355A9F1A4557A9006BA698 /* MRProgressOverlayView.m in Sources */,
+				ED355AA71A4557A9006BA698 /* MRWeakProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
