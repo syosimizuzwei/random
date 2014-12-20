@@ -15,12 +15,13 @@
     int rannsuub;
     int provide;
     int m;
-        IBOutlet UILabel *label;
+    
+    IBOutlet UILabel *label;
     IBOutlet UILabel *labela;
     IBOutlet UILabel *labelb;
     IBOutlet UIPickerView *picker;
     NSArray *array;
-        }
+}
 -(IBAction)button;
 -(IBAction)buttonclear;
 @property(nonatomic)UIView*  window;

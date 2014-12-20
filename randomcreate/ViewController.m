@@ -22,8 +22,7 @@
     
     // デリゲートを設定
     picker.delegate = self;
-    
-    // データソースを設定
+   
     picker.dataSource = self;
     
     // 選択インジケータを表示
@@ -31,10 +30,17 @@
     
     // UIPickerのインスタンスをビューに追加
     //    [self.view addSubview:picker];
+    /*
+    CGAffineTransform t0 = CGAffineTransformMakeTranslation(picker.bounds.size.width/2, picker.bounds.size.height/2);
+	CGAffineTransform s0 = CGAffineTransformMakeScale(0.5, 0.5);
+	CGAffineTransform t1 = CGAffineTransformMakeTranslation(-picker.bounds.size.width/2, -picker.bounds.size.height/2);
+	picker.transform = CGAffineTransformConcat(t0, CGAffineTransformConcat(s0, t1));
+     */
     
     
-
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {
