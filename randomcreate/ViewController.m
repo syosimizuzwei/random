@@ -37,7 +37,11 @@
 	picker.transform = CGAffineTransformConcat(t0, CGAffineTransformConcat(s0, t1));
      */
     
-    
+    picker.layer.borderColor = [UIColor orangeColor].CGColor;
+    labelb.layer.borderWidth = 4.0;
+    labela.text=[NSString stringWithFormat:@""];
+     labelb.text=[NSString stringWithFormat:@""];
+
 }
 
 
@@ -114,14 +118,7 @@ numberOfRowsInComponent:(NSInteger)component
 
     //[MRProgressOverlayView showOverlayAddedTo:self.window animated:YES];
     label.text=[NSString stringWithFormat:@"%d",rannsuu];
-    label.layer.borderColor = [UIColor orangeColor].CGColor;
-    label.layer.borderWidth = 4.0;
-    labela.layer.borderColor = [UIColor orangeColor].CGColor;
-    labela.layer.borderWidth = 0.0;
-    labelb.layer.borderColor = [UIColor orangeColor].CGColor;
-    labelb.layer.borderWidth = 0.0;
-
-    NSLog(@"provide:%d rannsuu:%d",provide,rannsuu);
+       NSLog(@"provide:%d rannsuu:%d",provide,rannsuu);
     
     
     
@@ -144,12 +141,7 @@ numberOfRowsInComponent:(NSInteger)component
 
         
         labela.text=[NSString stringWithFormat:@"%d",rannsuua];
-        label.layer.borderColor = [UIColor orangeColor].CGColor;
-        label.layer.borderWidth = 4.0;
-        labela.layer.borderColor = [UIColor orangeColor].CGColor;
-        labela.layer.borderWidth = 4.0;
-        labelb.layer.borderColor = [UIColor orangeColor].CGColor;
-        labelb.layer.borderWidth = 0.0;
+      
 
     }
     
@@ -187,12 +179,6 @@ numberOfRowsInComponent:(NSInteger)component
         
         labelb.text=[NSString stringWithFormat:@"%d",rannsuub];
         
-        label.layer.borderColor = [UIColor orangeColor].CGColor;
-        label.layer.borderWidth = 4.0;
-        labela.layer.borderColor = [UIColor orangeColor].CGColor;
-        labela.layer.borderWidth = 4.0;
-        labelb.layer.borderColor = [UIColor orangeColor].CGColor;
-        labelb.layer.borderWidth = 4.0;
     }
     
 }
@@ -200,12 +186,7 @@ numberOfRowsInComponent:(NSInteger)component
     label.text=[NSString stringWithFormat:@"0"];
     labela.text=[NSString stringWithFormat:@"0"];
     labelb.text=[NSString stringWithFormat:@"0"];
-    label.layer.borderColor = [UIColor orangeColor].CGColor;
-    label.layer.borderWidth = 0.0;
-    labela.layer.borderColor = [UIColor orangeColor].CGColor;
-    labela.layer.borderWidth = 0.0;
-    labelb.layer.borderColor = [UIColor orangeColor].CGColor;
-    labelb.layer.borderWidth = 0.0;
+   
 
 }
 

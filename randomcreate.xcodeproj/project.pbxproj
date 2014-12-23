@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED21A95A1A4949A1008C358C /* haikei.png in Resources */ = {isa = PBXBuildFile; fileRef = ED21A9591A4949A1008C358C /* haikei.png */; };
 		ED355A711A4550E2006BA698 /* button_sozai.png in Resources */ = {isa = PBXBuildFile; fileRef = ED355A701A4550E2006BA698 /* button_sozai.png */; };
 		ED355AA91A4557D1006BA698 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED355AA81A4557D1006BA698 /* QuartzCore.framework */; };
 		ED355AAB1A4557DD006BA698 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED355AAA1A4557DD006BA698 /* Accelerate.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED21A9591A4949A1008C358C /* haikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei.png; sourceTree = "<group>"; };
 		ED355A701A4550E2006BA698 /* button_sozai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_sozai.png; sourceTree = "<group>"; };
 		ED355AA81A4557D1006BA698 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		ED355AAA1A4557DD006BA698 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -90,6 +92,7 @@
 		EDE0ED521A175A42001EF010 = {
 			isa = PBXGroup;
 			children = (
+				ED21A9591A4949A1008C358C /* haikei.png */,
 				EDE0ED641A175A42001EF010 /* randomcreate */,
 				EDE0ED831A175A42001EF010 /* randomcreateTests */,
 				EDE0ED5D1A175A42001EF010 /* Frameworks */,
@@ -241,6 +244,7 @@
 			files = (
 				ED355A711A4550E2006BA698 /* button_sozai.png in Resources */,
 				EDE0ED951A175F1B001EF010 /* Main.storyboard in Resources */,
+				ED21A95A1A4949A1008C358C /* haikei.png in Resources */,
 				EDE0ED771A175A42001EF010 /* Images.xcassets in Resources */,
 				EDE0ED691A175A42001EF010 /* InfoPlist.strings in Resources */,
 			);
